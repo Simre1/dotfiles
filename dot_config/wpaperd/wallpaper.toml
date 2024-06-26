@@ -1,0 +1,4 @@
+[default]
+path = "/home/simon/wallpaper" 
+duration = "60m" 
+sorting = "random"

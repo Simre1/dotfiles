@@ -1,0 +1,28 @@
+theme = "ayu_evolve"
+
+[editor]
+true-color = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+
+[keys.insert.j]
+k = "normal_mode" # Maps `jk` to exit insert mode
+
+
+[keys.normal]
+X = "extend_line_above"
+ret = ["move_line_down", "goto_line_start"]
+
+[keys.normal.space]
+q = ":quit"
+
+[keys.normal.space.t]
+d = ":theme ayu_evolve"
+l = ":theme solarized_light"
+
+[editor.lsp]
+display-messages = true

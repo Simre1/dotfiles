@@ -1,0 +1,23 @@
+[language-server.unocss]
+command = "unocss-language-server"
+args = ["--stdio"]
+roots = ['unocss.config.js']
+
+[language-server.tailwindcss]
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+roots = ['tailwindcss.config.js']
+
+[[language]]
+name = "svelte"
+auto-format = true
+language-servers = [ { name = "unocss"}, "svelteserver", "emmet-ls", "eslint-ls" ]
+formatter = { command = "prettier", args = ["--parser", "html"]}
+
+[[language]]
+name = "wal"
+scope = "source.wal"
+file-types = ["wal"]
+comment-token = ";;"
+indent = { tab-width = 2, unit = "  " }
+grammar = "scheme"
