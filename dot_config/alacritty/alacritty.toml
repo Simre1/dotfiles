@@ -1,4 +1,4 @@
-import =  ["~/.config/alacritty/dark.toml"]
+general.import =  ["~/.config/alacritty/dark.toml"]
 
 [font]
 size=14
