@@ -1,0 +1,3 @@
+# hyprctl dispatch monitor ",preferred,auto,1,mirror,eDP-1"
+
+# Not working ...

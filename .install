@@ -1,0 +1,2 @@
+pacman -S wpaperd helix swaylock swayidle grim rofi alacritty thunar 
+yay -S vimix-gtk-themes timecop-bin wlogout

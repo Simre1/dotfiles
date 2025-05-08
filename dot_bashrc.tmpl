@@ -1,0 +1,20 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+TERMINAL=/usr/bin/alacritty
+EDITOR=helix
+PATH=$PATH:/home/simon/.ghcup/bin
+PATH=$PATH:/home/simon/bin
+PATH=$PATH:/home/simon/.local/bin/
+PATH=$PATH:/home/simon/.cargo/bin
+PATH=$PATH:/home/simon/.config/emacs/bin
+
+eval "$(starship init bash)"
